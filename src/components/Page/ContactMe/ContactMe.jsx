@@ -1,5 +1,5 @@
-import InputComponent , {InputComponentHe} from "../Input/Input";
-import { GlobalSetTheme } from '../ConText/ConText';
+import InputComponent , {InputComponentHe} from "../../Features/Input/Input";
+import { GlobalSetTheme } from '../../Features/ConText/ConText';
 
 export default function ContactMe() {
     const getContext = GlobalSetTheme();

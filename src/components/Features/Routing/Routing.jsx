@@ -1,7 +1,7 @@
 import Home ,{HomeHe} from '../../Page/Home/Home';
 import Portfolio,{PortfolioHe} from '../../Page/Portfolio/Portfolio';
 import Skills ,{SkillsHe} from '../../Page/Skills/Skills';
-import ContactMe from '../ContactMe/ContactMe';
+import ContactMe from '../../Page/ContactMe/ContactMe';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import { useState , useReducer } from 'react';

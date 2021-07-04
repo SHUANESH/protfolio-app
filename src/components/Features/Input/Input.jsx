@@ -122,6 +122,9 @@ export default function InputComponent() {
        console.log(inputValue);
    }
 
+   useEffect(() => {
+    inputEl.current.focus();
+}, []);
    const [allMessage, setAllMessage] = useState();
    useEffect(() => {
        setAllMessage(`
@@ -190,7 +193,7 @@ export function InputComponentHe() {
     useEffect(() => {
         inputEl.current.focus();
     }, []);
-    
+
    const [allMessage, setAllMessage] = useState();
    useEffect(() => {
        setAllMessage(`
