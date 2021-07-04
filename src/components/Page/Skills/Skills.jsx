@@ -9,13 +9,16 @@ import Carousel from 'react-bootstrap/Carousel';
 const CarousalDiv = styled.div`
 height: 50vh;
 width: 60vw;
-margin-top: 100px;
-margin-bottom: 100px;
+margin-top: 50px;
+margin-bottom: 200px;
 `
-const ImgStyled = styled.img`
+const SpanStyled = styled.span`
 height: 70px;
 width: 70px;
 border-radius: 15px;
+font-size: 50px;
+
+;
 
 @media (min-width: 1028px) {
     height: 100px;
@@ -65,13 +68,11 @@ width: fit-content;
 `
 const SkillsDiv = styled.div`
 width:80%;
-/* text-align: center; */
 height: 100vh;
 margin-top: 20px;
 border-radius: 10px;
 display: flex;
 justify-content:space-around;
-/* align-items: center; */
 flex-wrap: wrap;
 flex-direction: row;
 background-image:"transparent";
@@ -114,8 +115,9 @@ height: 500px;
 
 `
 const CarouselImg = styled.img`
-width: 50vw;
-height: 70vh;
+width: 200px;
+height: 500px;
+border-radius: 8px;
 
 `
 const Ul = styled.ul`
@@ -126,6 +128,7 @@ background-color:white;
 width: 210px;
 height: 150px;
 border-radius: 2px;
+list-style: none;
 box-shadow: -5px 7px 10px 0px rgba(35,28,28,0.75);
 @media (max-width: 800px) {
 flex-wrap: wrap;
@@ -150,7 +153,7 @@ const ImgArrayForCarousels= UseContextAboutMe()
                 <H5>"Every morning I get up I believe I will learn something new today"</H5>
                 {/* <H5><b>"Success is the ability to move from failure to failure without losing enthusiasm" <br/> -Winston Churchill- </b></H5> */}
             </div>
-                <h2>Professional skills</h2>
+                <h2 style={{marginTop:"50px" , textAlign:"center"}}>Professional skills <br />Client side and server side </h2>
                <SkillsDiv>
                   
                    {
@@ -158,14 +161,14 @@ const ImgArrayForCarousels= UseContextAboutMe()
                        ArrayOfSkillsLogo.map((getItem , index)=>{
                           return  <DivContainerForData key={index}>
                                         <PStyled>{getItem.headline}</PStyled>
-                                        <ImgStyled src={getItem.img} className="animate__animated animate__fadeInDown"/>
+                                        <SpanStyled  className="animate__animated animate__fadeInDown">{getItem.img}</SpanStyled>
                                    </DivContainerForData>
                        })
                          
                    }
 
                </SkillsDiv>
-               <h2>Personal skills</h2>
+               <h2 style={{marginTop:"10%"}}>Personal skills</h2>
                <DivUl>
                  <div>
                  <Ul>
@@ -229,13 +232,11 @@ export  function SkillsHe() {
   `
   const SkillsDiv = styled.div`
   width:80%;
-  /* text-align: center; */
   height: 100vh;
   margin-top: 20px;
   border-radius: 10px;
   display: flex;
   justify-content:space-around;
-  /* align-items: center; */
   flex-wrap: wrap;
   flex-direction: row;
   background-image:"transparent";
@@ -278,15 +279,18 @@ export  function SkillsHe() {
   
   `
   const CarouselImg = styled.img`
-  width: 50vw;
-  height: 70vh;
+  width: 200px;
+  height: 500px;
+ border-radius: 8px;
+
   `
   const Ul = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:${themChe.them === false? "white": "black"};
+  background-color:white;
+  list-style: none;
   width: 280px;
   height: 160px;
   border-radius: 2px;
@@ -303,7 +307,7 @@ export  function SkillsHe() {
   &>li{
     width: 250px;
     font-size: 18px;
-    color: ${themChe.them === false? "black": "white"};
+    color: ${themChe.them === false? "black": "black"};
   }
   `
   const ImgArrayForCarousels= UseContextAboutMeHebrew()
@@ -314,7 +318,7 @@ export  function SkillsHe() {
                   <H5>"כל בוקר שאני קמה אני מאמינה שאני אלמד משהו חדש"</H5>
                   {/* <H5><b>"Success is the ability to move from failure to failure without losing enthusiasm" <br/> -Winston Churchill- </b></H5> */}
               </div>
-                  <h2>כישורים מקצועיים</h2>
+                  <h2 style={{marginTop:"50px" , textAlign:"center"}}>  כישורים מקצועיים <br/>צד לקוח וצד שרת</h2>
                  <SkillsDiv>
                     
                      {
@@ -322,14 +326,14 @@ export  function SkillsHe() {
                          ArrayOfSkillsLogo.map((getItem , index)=>{
                             return  <DivContainerForData key={index}>
                                           <PStyled>{getItem.headline}</PStyled>
-                                          <ImgStyled src={getItem.img} className="animate__animated animate__fadeInDown"/>
+                                          <SpanStyled  className="animate__animated animate__fadeInDown">{getItem.img}</SpanStyled>
                                      </DivContainerForData>
                          })
                            
                      }
   
                  </SkillsDiv>
-                 <h2>כישורים אישיים</h2>
+                 <h2 style={{marginTop:"10%"}}>כישורים אישיים</h2>
                  <DivUl>
                    <div>
                    <Ul>

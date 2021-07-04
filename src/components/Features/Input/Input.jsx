@@ -132,12 +132,6 @@ export default function InputComponent() {
        Message: ${inputValue.message}`);
    }, [inputValue])
 
-// useEffect(() => {
-//     textSpan === ""?setTextSpan("Thank you I will contact you as soon as possible!") : setTextSpan("") ;
-//     // textSpan === "" ?setTextSpan("HJDHKD"):setTextSpan("")
-//     // textSpan.style.display = `inline-block`
-
-// }, [])
     return (
         <Continuer>
                 
@@ -193,7 +187,10 @@ export function InputComponentHe() {
        setInputValue({...inputValue ,[e.target.name]: e.target.value });
        console.log(inputValue);
    }
-
+    useEffect(() => {
+        inputEl.current.focus();
+    }, []);
+    
    const [allMessage, setAllMessage] = useState();
    useEffect(() => {
        setAllMessage(`
@@ -203,10 +200,6 @@ export function InputComponentHe() {
        Email: ${inputValue.Email}
        Message: ${inputValue.message}`);
    }, [inputValue])
-
-// useEffect(() => {
-//     textSpan===""?setTextSpan("HJDHKD"):setTextSpan("")
-// }, [textSpan])
 
     return (
         <Continuer>

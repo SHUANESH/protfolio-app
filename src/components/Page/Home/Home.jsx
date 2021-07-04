@@ -5,25 +5,35 @@ import styled from 'styled-components';
 import{UseContextAboutMe , GlobalSetTheme , UseContextAboutMeHebrew} from '../../Features/ConText/ConText';
 
 
+const ContinuerDiv = styled.div`
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: -50px;
+@media (max-width:720px) {
+    width:100%;
+    
+  }
 
+`
 const ImgStyled = styled.img`
-width:100%;
+width:80%;
 height: 70%;
-
-  animation-name: example;
-  animation-duration: 5s;
+animation-name: example;
+animation-duration: 5s;
 margin-top: 100px;
 @media (min-width: 800px) {
     width:80%;
   }
 
   @media (max-width: 1100px) {
-    width:100%;
+    width:80%;
 
   }
  @keyframes example {
   from {width:50%; height: 40%; }
-  to {width:100%; height: 70%;}
+  to {width:85%; height: 70%;}
 }
 `
 
@@ -64,11 +74,10 @@ word-wrap: break-word;
 const ContinuerDivImg = styled.div`
 display:flex;
 justify-content: center;
-align-items: flex-start;
+align-items: center;
 justify-content: center;
 flex-direction: row;
 width: 60%;
-margin-top: -10px;
 padding: 20px;
 @media (max-width: 700px) {
     flex-direction: column;
@@ -105,21 +114,6 @@ export default function Home() {
   const themChe = GlobalSetTheme();
   const ArrayOfAboutMe = UseContextAboutMe();
 
-  const ContinuerDiv = styled.div`
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: -50px;
-  @media (max-width:720px) {
-      width:100%;
-      
-    }
-
-    /* background-image: url(${themChe.them === false? gifImg: bgforhome});
-    background-size: cover; */
-  `
-
 
     return (
          <ContinuerDiv>
@@ -147,6 +141,8 @@ export default function Home() {
 export function HomeHe() {
     const themChe = GlobalSetTheme();
     const ArrayOfAboutMe = UseContextAboutMeHebrew();
+
+
     return (
          <ContinuerDiv >
             <ImgStyled  src={themChe.them === false? gifImg: bgcWhite} alt="" className="animate__animated animate__zoomIn"/>

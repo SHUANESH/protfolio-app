@@ -12,7 +12,7 @@ import img9 from '../../images/img9.png';
 import img10 from '../../images/img10.png';
 import git from '../../images/git.png'
 
-import htmlLogo from '../../images/html-logo.png';
+import htmlLogo from '../../images/htmlLogo.png';
 import cssLogo from '../../images/cssLogo.png';
 import reactLogo from '../../images/react-logo.png';
 import jsLogo from '../../images/js-logo.png';
@@ -82,18 +82,21 @@ export function UseContTextHebrew(){
 // Skills context
 const ArrayOfSkillsLogo = [
    
-    { img:cssLogo ,headline:"CSS"},
-    { img:git ,headline:"github"},
-    { img:htmlLogo ,headline:"HTML"},
-    { img:jsLogo ,headline:"JavaScript"},
-    { img:reactLogo ,headline:"React"},
-    { img:CLogo ,headline:"C#"},
-    { img:bootLogo ,headline:"Bootstrap"},
-    { img:jqLogo ,headline:"jQuery"},
-    { img:mongoLogo ,headline:"MONOGDB"},
-    { img:nodeLogo ,headline:"Nodejs"},
-    { img:mvsLogo ,headline:"MVC"},
-    { img:sqlLogo ,headline:"MSSQL"},
+    { img:<i class="devicon-css3-plain"></i> ,headline:"CSS"},
+    { img:<i class="devicon-github-original"></i> ,headline:"github"},
+    { img:<i class="devicon-html5-plain"></i> ,headline:"HTML"},
+    { img:<i class="devicon-javascript-plain"></i> ,headline:"JavaScript"},
+    { img:<i class="devicon-react-original"></i> ,headline:"React"},
+    { img:<i class="devicon-redux-original"></i> ,headline:"Redux"},
+    { img:<i class="devicon-csharp-plain"></i> ,headline:"C#"},
+    { img:<i class="devicon-bootstrap-plain"></i> ,headline:"Bootstrap"},
+    { img:<i class="devicon-jquery-plain"></i> ,headline:"jQuery"},
+    { img:<i class="devicon-mongodb-plain"></i> ,headline:"MONOGDB"},
+    { img:<i class="devicon-nodejs-plain"></i> ,headline:"Nodejs"},
+    { img:<i class="devicon-dot-net-plain"></i> ,headline:"MVC"},
+    { img:<i class="devicon-microsoftsqlserver-plain"></i> ,headline:"MSSQL"},
+    { img:<i class="devicon-materialui-plain"></i> ,headline:"Materialui"},
+    { img:<i class="devicon-visualstudio-plain"></i> ,headline:"VisualStudio"},
     
     
 ]

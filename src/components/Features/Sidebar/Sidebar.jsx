@@ -3,7 +3,7 @@ import { GlobalSetTheme } from '../ConText/ConText';
 import Switch from '@material-ui/core/Switch';
 import styled from 'styled-components';
 import img11 from '../../images/img11.png';
-
+import indi from '../../images/indi.jpeg'
 
 
 
@@ -107,9 +107,12 @@ flex-wrap: wrap;
 <DivStyled id="main">
 
 <DivStyled>
-  <button id="openNav" className="w3-button w3-#040505 w3-xxlarge" style={{color:"#1EAE98"}} onClick={w3_open}>&#9776;</button>
-  <AEmail href="">
+  <button id="openNav" className="w3-button w3-#040505 w3-xxlarge" style={{color:"#1EAE98" , marginTop:"-25px"}} onClick={w3_open}>&#9776;</button>
+  <AEmail href="https://tech-career-alternative.firebaseapp.com/">
       <Img src={img11} alt="" />
+  </AEmail>
+  <AEmail href="https://tech-career-alternative.firebaseapp.com/">
+      <Img src={indi} alt="" />
   </AEmail>
   <AEmail href={`mailto:shuanesh1817@gmail.com`}>         
       <p>shuanesh1817@gmail.com</p>
