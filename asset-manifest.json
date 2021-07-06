@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/protfolio-app/static/css/main.c65cd7a2.chunk.css",
-    "main.js": "/protfolio-app/static/js/main.b5d20d37.chunk.js",
-    "main.js.map": "/protfolio-app/static/js/main.b5d20d37.chunk.js.map",
-    "runtime-main.js": "/protfolio-app/static/js/runtime-main.f5963311.js",
-    "runtime-main.js.map": "/protfolio-app/static/js/runtime-main.f5963311.js.map",
-    "static/js/2.8a65e103.chunk.js": "/protfolio-app/static/js/2.8a65e103.chunk.js",
-    "static/js/2.8a65e103.chunk.js.map": "/protfolio-app/static/js/2.8a65e103.chunk.js.map",
-    "static/js/3.42afe85a.chunk.js": "/protfolio-app/static/js/3.42afe85a.chunk.js",
-    "static/js/3.42afe85a.chunk.js.map": "/protfolio-app/static/js/3.42afe85a.chunk.js.map",
+    "main.js": "/protfolio-app/static/js/main.c175a53b.chunk.js",
+    "main.js.map": "/protfolio-app/static/js/main.c175a53b.chunk.js.map",
+    "runtime-main.js": "/protfolio-app/static/js/runtime-main.75952cac.js",
+    "runtime-main.js.map": "/protfolio-app/static/js/runtime-main.75952cac.js.map",
+    "static/js/2.8d01086e.chunk.js": "/protfolio-app/static/js/2.8d01086e.chunk.js",
+    "static/js/2.8d01086e.chunk.js.map": "/protfolio-app/static/js/2.8d01086e.chunk.js.map",
+    "static/js/3.c526edca.chunk.js": "/protfolio-app/static/js/3.c526edca.chunk.js",
+    "static/js/3.c526edca.chunk.js.map": "/protfolio-app/static/js/3.c526edca.chunk.js.map",
     "index.html": "/protfolio-app/index.html",
     "static/css/main.c65cd7a2.chunk.css.map": "/protfolio-app/static/css/main.c65cd7a2.chunk.css.map",
-    "static/js/2.8a65e103.chunk.js.LICENSE.txt": "/protfolio-app/static/js/2.8a65e103.chunk.js.LICENSE.txt",
+    "static/js/2.8d01086e.chunk.js.LICENSE.txt": "/protfolio-app/static/js/2.8d01086e.chunk.js.LICENSE.txt",
     "static/media/AboutMe-2.ad5248ce.jpeg": "/protfolio-app/static/media/AboutMe-2.ad5248ce.jpeg",
     "static/media/AboutMe.fd150129.jpeg": "/protfolio-app/static/media/AboutMe.fd150129.jpeg",
     "static/media/bgforhom.88945106.png": "/protfolio-app/static/media/bgforhom.88945106.png",
@@ -42,9 +42,9 @@
     "static/media/witheBjc.a696035f.png": "/protfolio-app/static/media/witheBjc.a696035f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5963311.js",
-    "static/js/2.8a65e103.chunk.js",
+    "static/js/runtime-main.75952cac.js",
+    "static/js/2.8d01086e.chunk.js",
     "static/css/main.c65cd7a2.chunk.css",
-    "static/js/main.b5d20d37.chunk.js"
+    "static/js/main.c175a53b.chunk.js"
   ]
 }
