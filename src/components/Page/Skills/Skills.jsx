@@ -150,7 +150,7 @@ const ImgArrayForCarousels= UseContextAboutMe()
         <Continuer>
             <div>
                 <H1><b>skills </b></H1>
-                <H5>"Every morning I get up I believe I will learn something new today"</H5>
+                <H5>"Every morning when I get up I believe I will learn something new!"</H5>
                 {/* <H5><b>"Success is the ability to move from failure to failure without losing enthusiasm" <br/> -Winston Churchill- </b></H5> */}
             </div>
                 <h2 style={{marginTop:"50px" , textAlign:"center"}}>Professional skills <br />Client side and server side </h2>
@@ -173,7 +173,7 @@ const ImgArrayForCarousels= UseContextAboutMe()
                  <div>
                  <Ul>
                    <li>Responsibility</li>
-                   <li>Team-working</li>
+                   <li>Team-work</li>
                    <li>Intrinsically Motivated</li>
                  </Ul>
                  </div>

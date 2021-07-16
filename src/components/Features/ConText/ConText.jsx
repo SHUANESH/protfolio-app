@@ -34,16 +34,16 @@ import timeP from '../../images/timeP.jpeg'
 // Portfolio context in English
 const ProjectArray =[
 
-    {headline:"Movie website",img:img7 ,paragraph:"Website made of movies made with an external server using JS, and working with API. With the option to search movies from the list" ,link:"https://shuanesh.github.io/External_server/" },
-    {headline:"Pet shop website",img:img10 ,paragraph:"A website for a pet store made with the help of React. With data presented in the table, and a view of each animal individually in its own componte." ,link:"https://github.com/SHUANESH/pet_shop" },
-    {headline:"Office website",img:img9 ,paragraph:"An office website created using React Component. With a combination of gallery, contact form" ,link:"https://github.com/SHUANESH/office_app" },
+    {headline:"Movie website",img:img7 ,paragraph:"Website of movies wising with an external server using JS and API, with the option to search movies from the list." ,link:"https://shuanesh.github.io/External_server/" },
+    {headline:"Pet shop website",img:img10 ,paragraph:"A website for a pet store made with the help of React.Data is presented in the table with view of each animal individually in its own component." ,link:"https://github.com/SHUANESH/pet_shop" },
+    {headline:"Office website",img:img9 ,paragraph:"An office website created using the React Component. It combination of a gallery and a contact form." ,link:"https://github.com/SHUANESH/office_app" },
     {headline:"Website for searching",img:img8 ,paragraph:"A website for searching for existing users in the system. New users can also be added to the system by filling out a form properly." ,link:"https://shuanesh.github.io/existing_users/" }, 
-    {headline:"calculator project",img:img2 ,paragraph:"Create a calculator from scratch using JS and CSS with all the functionality required in the calculator" ,link:"https://shuanesh.github.io/calculator/" },
-    {headline:"Dynamic table project",img:img1 ,paragraph:"In this project I used JS to create data to the table dynamically, and CSS is also used to design the project" ,link:"https://shuanesh.github.io/transport_project/" },
+    {headline:"calculator project",img:img2 ,paragraph:"Create a calculator from scratch using JS and CSS with all the functionality required in the calculator." ,link:"https://shuanesh.github.io/calculator/" },
+    {headline:"Dynamic table project",img:img1 ,paragraph:"In this project I used JS to add data to the table dynamically.CSS is also used to design the project." ,link:"https://shuanesh.github.io/transport_project/" },
     {headline:"Photography website",img:img3 ,paragraph:"A photo website built using HTML and CSS only. Made with animations." ,link:"https://shuanesh.github.io/Photography-project/" },
     {headline:"Sample image site for a hotel",img:img4 ,paragraph:"A sample website made for the hotel using CSS and HTML combined with animations." ,link:"https://shuanesh.github.io/hotel-app/" },
-    {headline:"Cake website",img:img5 ,paragraph:"A cake recipe website built using CSS and HTML only after two weeks of course" ,link:"https://shuanesh.github.io/cake-app/" },
-    {headline:"Resume website",img:img6 ,paragraph:"First resume project done using CSS and HTML after three months in the course" ,link:"https://shuanesh.github.io/resume-app/" },
+    {headline:"Cake website",img:img5 ,paragraph:"A cake recipe website built using CSS and HTML only after two weeks of the course." ,link:"https://shuanesh.github.io/cake-app/" },
+    {headline:"Resume website",img:img6 ,paragraph:"First resume project done using CSS and HTML after three months in the course." ,link:"https://shuanesh.github.io/resume-app/" },
 
 ];
 
@@ -109,11 +109,11 @@ export function UseContextForSkills(){
 
 // Home context in English
 const ArrayOfAboutMe = [
-    { img:firstCors ,date:"21.12.2020",headline:"The beginning" , paragraph:"This photo was taken on the first day of the course. It was a exciting moment."},
+    { img:firstCors ,date:"21.12.2020",headline:"The beginning" , paragraph:"This photo was taken on the first day of the course. It was an exciting moment."},
     { img:AboutMe1 ,date:"16.04.2021" ,headline:"Student panel", paragraph:"In this picture me and 2 other students were chosen to speak in front of new candidates."},
     { img:AboutMe2 ,date:"07.06.2021" ,headline:"Ran Barzik Lecture" , paragraph:"In this picture, we are given a lecture by Ran Barzik on how to integrate into the high-tech world."},
     { img:timeP ,date:"02.06.2021" ,headline:"Just in time" , paragraph:"In this picture I had to talk about the importance of the concept just in time, and how it is reflected in the world of programming."},
-    { img:ranAndMe ,date:"30.06.2021" ,headline:"Second lecture" , paragraph:"A second lecture by Ran Barzik and this time on an important topic of information security and cyber."},
+    { img:ranAndMe ,date:"30.06.2021" ,headline:"Second lecture" , paragraph:"A second lecture by Ran Barzik and this time on an important topic of information and cyber security."},
     
 ]
 

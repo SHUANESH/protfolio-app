@@ -89,19 +89,19 @@ flex-wrap: wrap;
          />
        </div>
        
-    <LinkStyled className="w3-bar-item w3-button" to="/">
+    <LinkStyled className="w3-bar-item w3-button" to="/" onClick={w3_close}>
           <b>Home</b> 
     </LinkStyled>
-    <LinkStyled className="w3-bar-item w3-button" to="/Portfolio">
+    <LinkStyled className="w3-bar-item w3-button" to="/Portfolio" onClick={w3_close}>
             <b>Portfolio</b>
     </LinkStyled>
-    <LinkStyled className="w3-bar-item w3-button" to="/Skills">
+    <LinkStyled className="w3-bar-item w3-button" to="/Skills" onClick={w3_close}>
            <b>Skills</b> 
     </LinkStyled>
-    <LinkStyled className="w3-bar-item w3-button" to="/ContactMe">
+    <LinkStyled className="w3-bar-item w3-button" to="/ContactMe" onClick={w3_close}>
              <b>Contact-Me</b>
     </LinkStyled> 
-    <Button  className="w3-bar-item w3-button w3-large" onClick={getContext.language==="en"?getContext.handleHebrew:getContext.handleEnglish}>{getContext.language==="en"?"עברית":"English"}</Button>
+    <Button  className="w3-bar-item w3-button w3-large" onClick={getContext.language==="en"?getContext.handleHebrew:getContext.handleEnglish} >{getContext.language==="en"?"עברית":"English"}</Button>
 </DivStyled>
 
 <DivStyled id="main">
